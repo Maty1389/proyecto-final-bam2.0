@@ -1,0 +1,164 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Merriweather&family=Roboto+Slab:wght@500&family=Roboto:ital,wght@0,500;0,900;1,100;1,400&display=swap');
+   
+    .encabezado {
+        margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body    {
+    font-family:"Dela gothic one";
+}
+header  {
+        background-color: rgb(245, 245, 245);
+        text-align: center;
+        padding: 25px 0;
+        
+}
+nav a   {
+        display: inline-block;
+        text-decoration: none;
+        color: blue;
+        margin: 0 30px;
+        padding: 5px 15px;
+        border-radius: 30px;
+        
+}
+nav a:hover {
+
+        background-color: yellow;
+    
+}
+.encabezado-img {
+        background-image:url("boca-1.webp");
+        height: 500px;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(248, 248, 197);
+}
+.encabezado-img p{
+        font-size: 20px;
+}
+.encabezado-img h1{
+        font-size: 50px;
+        padding: 20px 0;
+}
+.encabezado-img p{
+        font-size: 20px;
+}
+footer {
+        background-color: rgb(241, 241, 143);
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    
+        }
+div {
+        color: black;
+}
+.text-borde , h1{
+        -webkit-text-stroke:2px rgb(207, 207, 52);
+        color: rgb(247, 247, 247);
+}
+.Noticias{
+        color: rgb(20, 20, 188);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+}
+.Fixture{
+        color: rgb(20, 20, 203) ;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.body {
+        background-color: rgb(255, 255, 226);
+}
+.museo , .tienda {
+        color: blue;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+ }
+ 
+ .form input{
+        margin-top: 10px;
+        border: 1px solid black;
+        width: 250px;
+        height: 50px;
+        border-radius: 25px;
+        padding: 10px;
+ }
+ 
+ .form textarea{
+        width: 250px;
+        margin-top: 10px;
+        border: 1px solid black;
+        border-radius: 25px;
+        padding: 10px;
+ }
+ 
+ .form .input_button{
+        background-color: blue;
+        color: yellow;
+        width: 150px;
+        transition: all 0.5s;
+  }      
+ 
+  .form .input_button:hover{
+        transform: scale(1.1);
+        transition: all 0.5s;
+        background-color:rgba(0, 0, 255, 0.493);
+        box-shadow: 0px 0px 10px 0 rgb yellow;
+  }
+ 
+ #arriba{
+        width: 50px;
+        height: 50px;
+        border-radius: 80%;
+        border: 1px solid rgb(66, 8, 190) ;
+        background-color: #ebc031;
+        position: fixed;
+        left: 85%;
+        bottom: 50px;
+        cursor:pointer;
+        transition: all ,3s ease;
+        transform: scale(0);
+ }
+ #arriba:hover{
+        opacity: .70;
+        transform: scale(1.1);
+ }
+ .bi-chevron-double-up{
+        font-size: 15px;
+ }
+
+@media screen and (max-width: 768px) {
+        p {
+                padding:0 50px;
+       }
+
+        .title{
+                margin-bottom: 0px;
+                font-size: 20px;
+        }
+        
+        
+       .item {
+             height: 80vh;
+             padding: 50 px 0;
+       }
+       .footer-section {
+             display:flex;
+             flex-direction: column;
+             display: none;
+       }
+       .navbar {
+             display: none;
+       }
+
+}
